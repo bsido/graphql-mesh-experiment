@@ -20,16 +20,4 @@ $ mesh build
 🕸️  Mesh - Supergraph 💥 Failed to generate the schema Error: Unknown type: "Node".
 ```
 
-When we change the line in the graphql file:
-
-```graphql
-type ReactionAuthor implements Node @join__owner(graph: PB_BACKEND) @join__type(graph: PB_BACKEND, key: "id") {
-```
-
-to:
-
-```graphql
-type ReactionAuthor implements Node @join__owner(graph: PB_BACKEND) {
-```
-
-The build is successful.
+The graphql file is taken from our real schema we just removed 99% of it, to create a simple example.

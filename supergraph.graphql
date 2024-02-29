@@ -20,7 +20,7 @@ type Mutation {
 }
 
 type Query {
- getAuthor: ReactionAuthor @join__field(graph: PB_BACKEND)
+  getAuthor: ReactionAuthor @join__field(graph: PB_BACKEND)
 }
 
 scalar Url
@@ -28,11 +28,6 @@ scalar Url
 interface Node {
   id: ID!
 }
-
-
-# when we change the below type to:
-# type ReactionAuthor implements Node @join__owner(graph: PB_BACKEND) {
-# the 'yarn build' command will no longer fail
 
 type ReactionAuthor implements Node @join__owner(graph: PB_BACKEND) @join__type(graph: PB_BACKEND, key: "id") {
   avatarUrl: Url! @join__field(graph: PB_BACKEND)
