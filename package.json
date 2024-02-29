@@ -21,6 +21,9 @@
     "@graphql-mesh/supergraph": "^0.1.6",
     "graphql": "^16.8.1"
   },
+  "resolutions": {
+    "@graphql-tools/federation": "1.1.18-alpha-20240229135337-35637abbe36de4989ad69c0408e0ddf0d931ecc7"
+  },
   "devDependencies": {
     "typescript": "^5.3.3"
   }
