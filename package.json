@@ -1,10 +1,10 @@
 {
-  "name": "graphql-gateway-v2",
+  "name": "graphql-mesh-experiment",
   "version": "0.1.0",
   "description": "Next generation GraphQL gateway",
   "main": "index.js",
-  "repository": "https://github.com/productboard/graphql-gateway-v2'",
-  "author": "comatory <ondrej.synacek@productboard.com>",
+  "repository": "https://github.com/bsido/graphql-mesh-experiment",
+  "author": "bsido <balazs.sido@productboard.com>",
   "license": "none",
   "private": true,
   "engines": {
