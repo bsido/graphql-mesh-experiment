@@ -22,7 +22,7 @@
     "graphql": "^16.8.1"
   },
   "resolutions": {
-    "@graphql-tools/federation": "1.1.18-alpha-20240229135337-35637abbe36de4989ad69c0408e0ddf0d931ecc7"
+    "@graphql-tools/federation": "1.1.18-alpha-20240305095719-2628387d8ce4c16b3c55f4062e1e7daabf1e02dd"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
