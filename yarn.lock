@@ -1105,18 +1105,18 @@
     tslib "^2.4.0"
     value-or-promise "^1.0.12"
 
-"@graphql-tools/federation@1.1.18-alpha-20240305095719-2628387d8ce4c16b3c55f4062e1e7daabf1e02dd", "@graphql-tools/federation@^1.1.12":
-  version "1.1.18-alpha-20240305095719-2628387d8ce4c16b3c55f4062e1e7daabf1e02dd"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/federation/-/federation-1.1.18-alpha-20240305095719-2628387d8ce4c16b3c55f4062e1e7daabf1e02dd.tgz#c54dd57ae41f0aa0da2371c7e399f3f85bd8f0be"
-  integrity sha512-NPF9H4SHwE8WAxpYKL0Qni3gdSaJ6PFdGG4DSUnKVuHunE6iYYphnjqHTDLN+mdkaGvRYFKcLVPSl4dfQl+Nzg==
+"@graphql-tools/federation@1.1.20", "@graphql-tools/federation@^1.1.12":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/federation/-/federation-1.1.20.tgz#7185830bb0c92c7afab6eafe312b631fa36e206c"
+  integrity sha512-XRLiYBHVhz/xxb6AlehjcOp8Gg+udPVxDESqDATHjkMnRk4xYbiEYt9JjCvCnue1Thrl4LhTLqA+GIQzO7vVAg==
   dependencies:
     "@graphql-tools/delegate" "^10.0.4"
     "@graphql-tools/executor-http" "^1.0.9"
     "@graphql-tools/merge" "^9.0.3"
     "@graphql-tools/schema" "^10.0.3"
     "@graphql-tools/stitch" "^9.0.5"
-    "@graphql-tools/utils" "^10.0.13"
-    "@graphql-tools/wrap" "^10.0.2"
+    "@graphql-tools/utils" "^10.1.1"
+    "@graphql-tools/wrap" "^10.0.3"
     tslib "^2.4.0"
     value-or-promise "^1.0.12"
   optionalDependencies:
@@ -1268,6 +1268,16 @@
     dset "^3.1.2"
     tslib "^2.4.0"
 
+"@graphql-tools/utils@^10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-10.1.1.tgz#43a958c8a9ebf4f8aabb58fca4ca95f67606d68a"
+  integrity sha512-1kNkZsND12hPkb+YpuUeTRt8f9ZTGhYOfu23V5Z21HegYDjl1k9eX+Inher/eiHCf1eXCk5rKWL9Liol8MWixA==
+  dependencies:
+    "@graphql-typed-document-node/core" "^3.1.1"
+    cross-inspect "1.0.0"
+    dset "^3.1.2"
+    tslib "^2.4.0"
+
 "@graphql-tools/utils@^8.8.0":
   version "8.13.1"
   resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-8.13.1.tgz#b247607e400365c2cd87ff54654d4ad25a7ac491"
@@ -1291,6 +1301,17 @@
     "@graphql-tools/delegate" "^10.0.4"
     "@graphql-tools/schema" "^10.0.3"
     "@graphql-tools/utils" "^10.0.13"
+    tslib "^2.4.0"
+    value-or-promise "^1.0.12"
+
+"@graphql-tools/wrap@^10.0.3":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/wrap/-/wrap-10.0.3.tgz#a94f53c9a235d5db941ab19e4216990598b1e7a5"
+  integrity sha512-SOfJFWY57UttXBpdns0VhUNniByRj1HDd3m2xtD0wiENCkR/hNBiD+vwM6jZlzQp1tKrqCLYeuvqs2m6+YwmPw==
+  dependencies:
+    "@graphql-tools/delegate" "^10.0.4"
+    "@graphql-tools/schema" "^10.0.3"
+    "@graphql-tools/utils" "^10.1.1"
     tslib "^2.4.0"
     value-or-promise "^1.0.12"
 
