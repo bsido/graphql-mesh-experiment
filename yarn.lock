@@ -1105,10 +1105,10 @@
     tslib "^2.4.0"
     value-or-promise "^1.0.12"
 
-"@graphql-tools/federation@1.1.20", "@graphql-tools/federation@^1.1.12":
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/federation/-/federation-1.1.20.tgz#7185830bb0c92c7afab6eafe312b631fa36e206c"
-  integrity sha512-XRLiYBHVhz/xxb6AlehjcOp8Gg+udPVxDESqDATHjkMnRk4xYbiEYt9JjCvCnue1Thrl4LhTLqA+GIQzO7vVAg==
+"@graphql-tools/federation@1.1.21", "@graphql-tools/federation@^1.1.12":
+  version "1.1.21"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/federation/-/federation-1.1.21.tgz#e00d335eba71c9f2ed5f467cdebe34b6d93ea244"
+  integrity sha512-nTe5+D6BwUHOqMsZefCLBBsP+Lp8zVOEXw2vgsgsCeFnY93VE171qysYOc7+dBOosWMOuAVXiraGHYAdiSFdYA==
   dependencies:
     "@graphql-tools/delegate" "^10.0.4"
     "@graphql-tools/executor-http" "^1.0.9"
