@@ -22,7 +22,7 @@
     "graphql": "^16.8.1"
   },
   "resolutions": {
-    "@graphql-tools/federation": "1.1.22"
+    "@graphql-tools/federation": "1.1.23"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
