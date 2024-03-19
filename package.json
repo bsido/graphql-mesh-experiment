@@ -16,13 +16,13 @@
     "start": "mesh start"
   },
   "dependencies": {
-    "@graphql-mesh/cli": "^0.88.9",
-    "@graphql-mesh/plugin-hive": "^0.96.8",
-    "@graphql-mesh/supergraph": "^0.1.6",
+    "@graphql-mesh/cli": "^0.89.4",
+    "@graphql-mesh/plugin-hive": "^0.97.5",
+    "@graphql-mesh/supergraph": "^0.2.4",
     "graphql": "^16.8.1"
   },
   "resolutions": {
-    "@graphql-tools/federation": "1.1.23"
+    "@graphql-tools/federation": "1.1.25"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
