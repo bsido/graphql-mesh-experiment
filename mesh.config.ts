@@ -18,7 +18,7 @@ const writeSDLToFile = (result: {
 }
 
 export const serveConfig = defineConfig({
-  //supergraph: "./supergraph.graphql", // <-- uncommenting this, you're able to access graphiql,
-  supergraph: supergraphFetcher().then(writeSDLToFile).then(({ supergraphSdl }) => supergraphSdl),
+  supergraph: "./supergraph.graphql", // <-- uncommenting this, you're able to access graphiql,
+  //supergraph: supergraphFetcher().then(writeSDLToFile).then(({ supergraphSdl }) => supergraphSdl),
   graphiql: true,
 });
