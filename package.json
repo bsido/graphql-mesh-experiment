@@ -11,18 +11,12 @@
     "node": "v20.11.0"
   },
   "scripts": {
-    "dev": "mesh dev",
-    "build": "mesh build",
-    "start": "mesh start"
+    "start": "mesh-serve"
   },
   "dependencies": {
-    "@graphql-mesh/cli": "^0.89.4",
-    "@graphql-mesh/plugin-hive": "^0.97.5",
-    "@graphql-mesh/supergraph": "^0.2.4",
+    "@graphql-hive/client": "^0.29.0",
+    "@graphql-mesh/serve-cli": "^0.3.10",
     "graphql": "^16.8.1"
-  },
-  "resolutions": {
-    "@graphql-tools/federation": "1.1.25"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

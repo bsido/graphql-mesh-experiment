@@ -41,3 +41,6 @@ typings/
 lib/*.js
 test/*.js
 *.map
+
+/.mesh/*
+!/.mesh/.gitkeep
